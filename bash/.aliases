@@ -5,7 +5,7 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[32m\]
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
-alias ls='ls -GFh'
+alias ls='ls -GFhA'
 alias ll='ls -al'
 alias ..='cd ..'
 alias sshuw='ssh yc6xu@linux.student.cs.uwaterloo.ca'
