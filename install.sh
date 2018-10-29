@@ -1,5 +1,7 @@
+mkdir ~/old-dotfiles
+
 # install zsh configs
-rm ~/.zshrc
+mv ~/.zshrc ~/old-dotfiles/.zshrc
 ln -s ./dotfiles/zsh/.zshrc ~/.zshrc
 
 # install oh my zsh
@@ -17,13 +19,13 @@ rm -rf fonts
 
 # install vim configs
 cd ~
-rm -rf .vim
-rm .vimrc
+mv ~/.vim ~/old-dotfiles/.vim
+mv ~/.vimrc ~/old-dotfiles/.vimrc
 git clone https://github.com/RobertYCXu/vim-config .vim
 # link .vimrc with vimrc in .vim
 ln -s ~/.vim/vimrc ~/.vimrc
 
 # install tmux configs
-rm ~/.tmux.conf
+mv ~/.tmux.conf ~/old-dotfiles/.tmux.conf
 ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
