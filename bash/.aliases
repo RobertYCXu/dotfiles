@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-alias ls='ls -GFhA'
-alias ll='ls -al'
-alias ..='cd ..'
-alias sshuw='ssh yc6xu@linux.student.cs.uwaterloo.ca'
-
