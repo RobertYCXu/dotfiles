@@ -28,9 +28,13 @@ RUN echo $TZ > /etc/timezone && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
 dpkg-reconfigure -f noninteractive tzdata
 
+# Set up dotfiles
+COPY ./git/* /root/
+
 # Set up volumes
 WORKDIR /root/projects
 VOLUME /root/projects
+VOLUME /keys
 
 
 # Enable colors
