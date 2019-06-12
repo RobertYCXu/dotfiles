@@ -30,6 +30,7 @@ dpkg-reconfigure -f noninteractive tzdata
 
 # Set up dotfiles
 COPY ./git/* /root/
+COPY ./zsh/* /root/
 
 # Set up volumes
 WORKDIR /root/projects
