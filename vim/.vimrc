@@ -40,7 +40,7 @@ set magic
 set showmatch
 
 " How many tenths of seconds to blink when matching brackets
-set mat = 0
+set mat=0
 
 " No annoying sounds on errors
 set noerrorbells
@@ -171,5 +171,5 @@ let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 
 " Color
-packadd! palenight.vim
+packadd! palenight
 colorscheme palenight

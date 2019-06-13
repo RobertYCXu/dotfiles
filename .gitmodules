@@ -25,3 +25,15 @@
 [submodule "vim/.vim/pack/robertycxu/start/bclose"]
 	path = vim/.vim/pack/robertycxu/start/bclose
 	url = git@github.com:rbgrouleff/bclose.vim.git
+[submodule "vim/.vim/pack/robertycxu/start/vim-airline"]
+	path = vim/.vim/pack/robertycxu/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "vim/.vim/pack/robertycxu/start/vim-surround"]
+	path = vim/.vim/pack/robertycxu/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "vim/.vim/pack/robertycxu/start/vim-eunuch"]
+	path = vim/.vim/pack/robertycxu/start/vim-eunuch
+	url = git@github.com:tpope/vim-eunuch.git
+[submodule "vim/.vim/pack/robertycxu/start/indentLine"]
+	path = vim/.vim/pack/robertycxu/start/indentLine
+	url = git@github.com:Yggdroot/indentLine.git
