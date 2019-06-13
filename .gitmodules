@@ -34,3 +34,6 @@
 [submodule "vim/.vim/pack/robertycxu/start/indentLine"]
 	path = vim/.vim/pack/robertycxu/start/indentLine
 	url = git@github.com:Yggdroot/indentLine.git
+[submodule "vim/.vim/pack/robertycxu/opt/palenight"]
+	path = vim/.vim/pack/robertycxu/opt/palenight
+	url = git@github.com:drewtempelmeyer/palenight.vim.git
