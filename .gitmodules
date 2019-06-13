@@ -1,6 +1,3 @@
-[submodule "vim/.vim/pack/robertycxu/opt/palenight"]
-	path = vim/.vim/pack/robertycxu/opt/palenight
-	url = git@github.com:drewtempelmeyer/palenight.vim.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-commentary"]
 	path = vim/.vim/pack/robertycxu/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
