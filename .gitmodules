@@ -1,5 +1,5 @@
-[submodule "vim/.vim/pack/robertycxu/start/palenight"]
-	path = vim/.vim/pack/robertycxu/start/palenight
+[submodule "vim/.vim/pack/robertycxu/opt/palenight"]
+	path = vim/.vim/pack/robertycxu/opt/palenight
 	url = git@github.com:drewtempelmeyer/palenight.vim.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-commentary"]
 	path = vim/.vim/pack/robertycxu/start/vim-commentary
@@ -22,3 +22,6 @@
 [submodule "vim/.vim/pack/robertycxu/start/vim-unimpaired"]
 	path = vim/.vim/pack/robertycxu/start/vim-unimpaired
 	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "vim/.vim/pack/robertycxu/start/bclose"]
+	path = vim/.vim/pack/robertycxu/start/bclose
+	url = git@github.com:rbgrouleff/bclose.vim.git
