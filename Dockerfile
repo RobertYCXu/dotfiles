@@ -34,6 +34,7 @@ COPY ./zsh/* /root/
 COPY ./vim/ /root/
 COPY ./aliases/* /root/
 COPY ./bash/* /root/
+COPY ./tmux/* /root/
 
 # Set up volumes
 WORKDIR /root/projects
@@ -46,5 +47,8 @@ RUN ~/.fzf/install
 
 # Enable colors
 ENV TERM=xterm-256color
+
+# Set up vim
+RUN git submodule update --init
 
 CMD ["tmux"]

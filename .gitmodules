@@ -37,3 +37,6 @@
 [submodule "vim/.vim/pack/robertycxu/opt/palenight"]
 	path = vim/.vim/pack/robertycxu/opt/palenight
 	url = git@github.com:drewtempelmeyer/palenight.vim.git
+[submodule "vim/.vim/pack/robertycxu/start/vim-tmux-navigator"]
+	path = vim/.vim/pack/robertycxu/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
