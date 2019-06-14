@@ -39,6 +39,9 @@ WORKDIR /root/projects
 VOLUME /root/projects
 VOLUME /keys
 
+# Set up FZF
+RUN git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+RUN ~/.fzf/install
 
 # Enable colors
 ENV TERM=xterm-256color

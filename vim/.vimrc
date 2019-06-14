@@ -121,7 +121,7 @@ map <leader>sv :source ~/.vimrc<cr>
 map ff :FZF<cr>
 
 " Grep
-map <leader>g :grep -r
+map <leader>g :grep -InHr
 
 " Clipboard
 " Copy file to clipboard
@@ -169,6 +169,9 @@ let delimitMate_expand_space=1
 " Airline
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
+
+"FZF
+set rtp+=~/.fzf
 
 " Color
 packadd! palenight
