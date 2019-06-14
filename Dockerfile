@@ -33,6 +33,7 @@ COPY ./git/* /root/
 COPY ./zsh/* /root/
 COPY ./vim/ /root/
 COPY ./aliases/* /root/
+COPY ./bash/* /root/
 
 # Set up volumes
 WORKDIR /root/projects
