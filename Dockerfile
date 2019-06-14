@@ -48,7 +48,4 @@ RUN ~/.fzf/install
 # Enable colors
 ENV TERM=xterm-256color
 
-# Set up vim
-RUN git submodule update --init
-
 CMD ["tmux"]
