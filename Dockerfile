@@ -39,7 +39,7 @@ COPY ./tmux/* /root/
 # Set up volumes
 WORKDIR /root/projects
 VOLUME /root/projects
-VOLUME /keys
+VOLUME /root/.ssh
 
 # Set up FZF
 RUN git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf

@@ -14,6 +14,3 @@ parse_git_branch() {
 if [ -f ~/.git-completion.bash  ]; then
   . ~/.git-completion.bash
 fi
-
-
-
