@@ -45,6 +45,25 @@ VOLUME /root/.ssh
 RUN git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 RUN ~/.fzf/install
 
+# Install miniconda
+RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86_64.sh -O ~/miniconda.sh && \
+    /bin/bash ~/miniconda.sh -b -p /opt/conda && \
+    rm ~/miniconda.sh && \
+    /opt/conda/bin/conda clean -tipsy && \
+    ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
+    echo "\n# Miniconda" >> ~/.bashrc && \
+    echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
+    echo "conda activate base" >> ~/.bashrc && \
+    echo "\n# Miniconda" >> ~/.zshrc && \
+    echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.zshrc && \
+    echo "conda activate base" >> ~/.zshrc
+ENV PATH=/opt/conda/bin:${PATH}
+
+# Install python packages
+RUN conda update -y conda
+RUN conda install -y \ 
+    boto3
+
 # Enable colors
 ENV TERM=xterm-256color
 
