@@ -151,6 +151,8 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 
 " Delete trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
+" Delete empty lines at EOF on save
+autocmd BufWritePre * :%s#\($\n\s*\)\+\%$##
 
 " Remap VIM 0 to first non-blank character
 map 0 ^
