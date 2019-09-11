@@ -1,6 +1,10 @@
 My dotfiles.
 =============
 
+## Local Installation
+
+```./setup.sh```
+
 ## Docker
 
 Building:
