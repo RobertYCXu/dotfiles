@@ -59,6 +59,8 @@ set expandtab
 set smarttab
 set tabstop=4
 set shiftwidth=4
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab smarttab
+autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab smarttab
 
 " Indentation
 set tw=99
