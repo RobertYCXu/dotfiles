@@ -40,3 +40,6 @@
 [submodule "vim/.vim/pack/robertycxu/start/vim-tmux-navigator"]
 	path = vim/.vim/pack/robertycxu/start/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "vim/.vim/pack/robertycxu/start/vim-polyglot"]
+	path = vim/.vim/pack/robertycxu/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot

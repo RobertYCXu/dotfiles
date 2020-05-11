@@ -50,18 +50,22 @@ mv ~/.tmux.conf ~/dotfiles_old
 
 # Set up dotfiles
 echo "Setting up new dotfiles"
-echo "Copying over git configs"
-cp -a ./git/. ~/
-echo "Copying over zsh configs"
-cp -a ./zsh/. ~/
-echo "Copying over vim configs"
-cp -a ./vim/. ~/
-echo "Copying over aliases configs"
-cp -a ./aliases/. ~/
-echo "Copying over bash configs"
-cp -a ./bash/. ~/
-echo "Copying over tmux configs"
-cp -a ./tmux/. ~/
+echo "Linking over git configs"
+ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
+echo "Linking over zsh configs"
+ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/zsh/.zsh_configs ~/.zsh_configs
+echo "Linking over vim configs"
+ln -sf ~/dotfiles/vim/.vim ~/.vim
+ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc
+echo "Linking over aliases configs"
+ln -sf ~/dotfiles/aliases/.aliases ~/.aliases
+echo "Linking over bash configs"
+ln -sf ~/dotfiles/bash/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/bash/.bash_profile ~/.bash_profile
+ln -sf ~/dotfiles/bash/.bash_prompt ~/.bash_prompt
+echo "Linking over tmux configs"
+ln -sf ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
 # Set up FZF
 echo "Installing FZF"
