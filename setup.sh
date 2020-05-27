@@ -69,7 +69,7 @@ ln -sf ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
 # Set up FZF
 echo "Installing FZF"
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+git clone --depth 1 git@github.com:junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
 echo "Done!"
