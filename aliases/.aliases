@@ -1,5 +1,4 @@
-alias ls='ls -GFA'
-alias ll='ls -Gal'
+alias ls='ls -FA --color=auto'
+alias ll='ls -al --color=auto'
 alias ..='cd ..'
 alias ....='cd ../../'
-alias sshuw='ssh yc6xu@linux.student.cs.uwaterloo.ca'

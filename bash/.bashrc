@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -f ~/.bash_profile ]; then
-  . ~/.bash_profile
-fi
+source ~/.bash_prompt
+source ~/.aliases
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
