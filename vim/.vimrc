@@ -1,3 +1,12 @@
+" Add to .vimrc to enable project-specific vimrc
+"
+set exrc
+set secure
+"
+" " exrc allows loading local executing local rc files.
+" " secure disallows the use of :autocmd, shell and write commands in local .vimrc files.
+
+
 " Filetype detection
 filetype plugin on
 
