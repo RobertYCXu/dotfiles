@@ -180,6 +180,9 @@ let delimitMate_expand_space=1
 " Airline
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
+" show full path of file in airline
+let g:airline_section_c = '%<%F%m %#__accent_red#%{airline#util#wrap(airline#parts#readonly(),0)}%#__restore__#'
+
 
 "FZF
 set rtp+=~/.fzf
