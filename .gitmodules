@@ -1,45 +1,45 @@
 [submodule "vim/.vim/pack/robertycxu/start/vim-commentary"]
 	path = vim/.vim/pack/robertycxu/start/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "vim/.vim/pack/robertycxu/start/delimitMate"]
 	path = vim/.vim/pack/robertycxu/start/delimitMate
-	url = git@github.com:Raimondi/delimitMate.git
+	url = https://github.com/Raimondi/delimitMate.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-fugitive"]
 	path = vim/.vim/pack/robertycxu/start/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-signify"]
 	path = vim/.vim/pack/robertycxu/start/vim-signify
-	url = git@github.com:mhinz/vim-signify.git
+	url = https://github.com/mhinz/vim-signify.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-dirvish"]
 	path = vim/.vim/pack/robertycxu/start/vim-dirvish
-	url = git@github.com:justinmk/vim-dirvish.git
+	url = https://github.com/justinmk/vim-dirvish.git
 [submodule "vim/.vim/pack/robertycxu/start/ale"]
 	path = vim/.vim/pack/robertycxu/start/ale
-	url = git@github.com:w0rp/ale.git
+	url = https://github.com/w0rp/ale.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-unimpaired"]
 	path = vim/.vim/pack/robertycxu/start/vim-unimpaired
-	url = git@github.com:tpope/vim-unimpaired.git
+	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "vim/.vim/pack/robertycxu/start/bclose"]
 	path = vim/.vim/pack/robertycxu/start/bclose
-	url = git@github.com:rbgrouleff/bclose.vim.git
+	url = https://github.com/rbgrouleff/bclose.vim.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-airline"]
 	path = vim/.vim/pack/robertycxu/start/vim-airline
-	url = git@github.com:vim-airline/vim-airline.git
+	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-surround"]
 	path = vim/.vim/pack/robertycxu/start/vim-surround
-	url = git@github.com:tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-eunuch"]
 	path = vim/.vim/pack/robertycxu/start/vim-eunuch
-	url = git@github.com:tpope/vim-eunuch.git
+	url = https://github.com/tpope/vim-eunuch.git
 [submodule "vim/.vim/pack/robertycxu/start/indentLine"]
 	path = vim/.vim/pack/robertycxu/start/indentLine
-	url = git@github.com:Yggdroot/indentLine.git
+	url = https://github.com/Yggdroot/indentLine.git
 [submodule "vim/.vim/pack/robertycxu/opt/palenight"]
 	path = vim/.vim/pack/robertycxu/opt/palenight
-	url = git@github.com:drewtempelmeyer/palenight.vim.git
+	url = https://github.com/drewtempelmeyer/palenight.vim.git
 [submodule "vim/.vim/pack/robertycxu/start/vim-tmux-navigator"]
 	path = vim/.vim/pack/robertycxu/start/vim-tmux-navigator
-	url = git@github.com:christoomey/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
 [submodule "vim/.vim/pack/robertycxu/start/vim-polyglot"]
 	path = vim/.vim/pack/robertycxu/start/vim-polyglot
-	url = git@github.com:sheerun/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
