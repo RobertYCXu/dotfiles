@@ -99,3 +99,5 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.zsh_configs
 source ~/.aliases
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
