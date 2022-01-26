@@ -43,3 +43,6 @@
 [submodule "vim/.vim/pack/robertycxu/start/vim-polyglot"]
 	path = vim/.vim/pack/robertycxu/start/vim-polyglot
 	url = git@github.com:sheerun/vim-polyglot
+[submodule "vim/.vim/pack/robertycxu/start/coc.nvim"]
+	path = vim/.vim/pack/robertycxu/start/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git

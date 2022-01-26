@@ -1,3 +1,6 @@
+source $LOCAL_ADMIN_SCRIPTS/master.vimrc
+source $LOCAL_ADMIN_SCRIPTS/vim/biggrep.vim
+
 " Add to .vimrc to enable project-specific vimrc
 "
 set exrc

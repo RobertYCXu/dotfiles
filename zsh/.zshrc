@@ -1,3 +1,20 @@
+# .zshrc
+# zshrc is sourced in interactive shells.  It should contain commands to set up
+# aliases, functions, options, key bindings, etc.
+
+# Load Facebook stuff (don't remove this line).
+source /usr/facebook/ops/rc/master.zshrc
+
+# Keep oodles of command history (see https://fburl.com/zshhistory).
+HISTSIZE=1000000
+SAVEHIST=1000000
+setopt APPEND_HISTORY
+
+# Allow tab completion in the middle of a word.
+setopt COMPLETE_IN_WORD
+
+# Set up personal aliases, functions, etc.
+# ...(put your own stuff here!)...
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -101,3 +118,7 @@ source ~/.zsh_configs
 source ~/.aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export no_proxy=".fbcdn.net,.facebook.com,.thefacebook.com,.tfbnw.net,.fb.com,.fburl.com,.facebook.net,.sb.fbsbx.com,localhost"
+export PATH=/home/robertycxu/nodenew/node-v16.13.2-linux-x64/bin:$PATH
+export PATH=/home/robertycxu/clangd_13.0.0/bin:$PATH
