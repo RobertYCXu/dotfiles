@@ -101,3 +101,6 @@ source ~/.zsh_configs
 source ~/.aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH=/Users/robertycxu/bin/platform-tools:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/Users/robertycxu/Library/Python/3.7/bin:$PATH
+export PATH=/Users/robertycxu/scripts:$PATH
